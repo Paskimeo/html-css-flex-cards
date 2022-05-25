@@ -8,28 +8,79 @@
 /* commons */
 body {
     font-family: 'Fredoka', sans-serif;
+    padding-top: 4cm;
+    width: 80%;
+    margin: auto;
+   
   }
 
+  ul{
+      list-style: none;
+  }
 
-.contaioner{
-    width: 80%;
-  margin: 0 auto;
+/*layout*/
+
+
+ .item{
+     display: flex;
+     width: 33%;
+     margin: auto;
+     background-color: black;
+     color: white;
+    box-sizing: border-box;
+    
+
+  
+ }
+
+  
+
+  
+.flex-container {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: nowrap;
 }
 
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+img{
+    width: 100px;
+}
+
+
+
   /**titolo**/
-  h1{
+  header{
       color: rgba(229,49,112,255);
-      padding-left: 45%;
-      padding-top: 10%;
-      display: inline-block;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      
 
       
   }
 
+   /*sotto-titolo*/
   .sotto-titolo{
-      padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 3%;
+      width: 80%;
+     margin: auto;
     text-align: center;
-    display: inline-block;
+    
   }
+
+  /*email*/
+  .email{
+      color: aquamarine;
+  }
+  
