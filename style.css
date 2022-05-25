@@ -28,6 +28,7 @@ body {
      background-color: black;
      color: white;
     box-sizing: border-box;
+    flex-direction: row;
     
 
   
@@ -40,6 +41,7 @@ body {
     display:flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    flex-direction: row;
     flex-wrap: nowrap;
 }
 
