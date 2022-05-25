@@ -9,3 +9,18 @@
 body {
     font-family: 'Fredoka', sans-serif;
   }
+
+
+.contaioner{
+    width: 80%;
+  margin: 0 auto;
+}
+
+  /**titolo**/
+  h1{
+      color: rgba(229,49,112,255);
+      padding-left: 45%;
+      padding-top: 10%;
+
+      
+  }
