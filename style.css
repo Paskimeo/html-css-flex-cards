@@ -21,6 +21,15 @@ body {
       color: rgba(229,49,112,255);
       padding-left: 45%;
       padding-top: 10%;
+      display: inline-block;
 
       
+  }
+
+  .sotto-titolo{
+      padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
+    text-align: center;
+    display: inline-block;
   }
