@@ -29,10 +29,15 @@ body {
      color: white;
     box-sizing: border-box;
     flex-direction: row;
-    
+    margin-left: 1cm;
+    margin-top: 1cm;
 
-  
  }
+
+
+
+
+
 
   
 
@@ -44,6 +49,13 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+
+
+
+
+
+
 
 
 .text{
@@ -86,3 +98,16 @@ img{
       color: aquamarine;
   }
   
+
+
+
+
+
+
+  .flex-container-sotto {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
